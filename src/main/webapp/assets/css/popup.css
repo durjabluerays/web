@@ -1,0 +1,284 @@
+/*WebDesignAndSuch.com*/
+
+
+
+
+
+@charset "UTF-8";
+body {
+	font-family:Palatino, Baskerville, Georgia, serif;
+	background:#190121;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}
+ #container {
+	width:100%;  
+	background: #FFFFFF;
+	margin: 0 auto; 
+	font-size:14px;
+	
+	text-align: left; 
+}
+#mainContent {
+	padding: 0 60px;
+	min-height:600px;
+	line-height:25px
+}
+
+img {border:0px}
+
+
+
+
+/*LINKS*/
+
+#mainContent a:link, #mainContent a:visited {color:#fff; text-decoration:none; font-size:18px; background:#000000; padding:5px; -webkit-border-radius:10px;
+-moz-border-radius:10px}
+#mainContent a:hover, #mainContent a:active {color:#fff; text-decoration:none; font-size:18px; background:#333333; padding:5px; -webkit-border-radius:10px;
+-moz-border-radius:10px}
+
+
+
+
+
+/*STYLES FOR CSS POPUP*/
+
+
+#blanket {
+   background-color:#111;
+   background:fuchsia;
+   position:absolute;
+   z-index: 9001;
+   top:0px;
+   left:0px;
+   width:100%;
+   background-color: white;
+}
+
+#popUpDiv {
+	position:absolute;
+	background:url(pop-back.jpg) no-repeat;
+	width:98%;
+	height:678px;
+	border:1px solid #4679BD;
+	z-index: 9002;
+	background-color: rgba(143, 20, 20, 1);
+	
+}
+
+#ex3::-webkit-scrollbar-thumb{
+background-color:#B03C3F;
+border-radius:10px;
+}
+#ex3::-webkit-scrollbar-thumb:hover{
+background-color:#BF4649;
+border:1px solid #333333;
+}
+#ex3::-webkit-scrollbar-thumb:active{
+background-color:#A6393D;
+border:1px solid #333333;
+}
+
+
+
+#popUpDiv a {position:relative; top:20px; left:20px}
+
+
+
+/*animation*/
+#circularG{
+position:inherit;
+width:128px;
+height:128px;
+z-index: 90005;
+right:30%;
+left: 45%;
+bottom: 50%;
+position: absolute;
+}
+
+.circularG{
+position:absolute;
+background-color:#8FE9FF;
+width:29px;
+height:29px;
+-moz-border-radius:19px;
+-moz-animation-name:bounce_circularG;
+-moz-animation-duration:0.8s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-webkit-border-radius:19px;
+-webkit-animation-name:bounce_circularG;
+-webkit-animation-duration:0.8s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-ms-border-radius:19px;
+-ms-animation-name:bounce_circularG;
+-ms-animation-duration:0.8s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-o-border-radius:19px;
+-o-animation-name:bounce_circularG;
+-o-animation-duration:0.8s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+border-radius:19px;
+animation-name:bounce_circularG;
+animation-duration:0.8s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+#circularG_1{
+left:0;
+top:50px;
+-moz-animation-delay:0.3s;
+-webkit-animation-delay:0.3s;
+-ms-animation-delay:0.3s;
+-o-animation-delay:0.3s;
+animation-delay:0.3s;
+}
+
+#circularG_2{
+left:14px;
+top:14px;
+-moz-animation-delay:0.4s;
+-webkit-animation-delay:0.4s;
+-ms-animation-delay:0.4s;
+-o-animation-delay:0.4s;
+animation-delay:0.4s;
+}
+
+#circularG_3{
+top:0;
+left:50px;
+-moz-animation-delay:0.5s;
+-webkit-animation-delay:0.5s;
+-ms-animation-delay:0.5s;
+-o-animation-delay:0.5s;
+animation-delay:0.5s;
+}
+
+#circularG_4{
+right:14px;
+top:14px;
+-moz-animation-delay:0.6s;
+-webkit-animation-delay:0.6s;
+-ms-animation-delay:0.6s;
+-o-animation-delay:0.6s;
+animation-delay:0.6s;
+}
+
+#circularG_5{
+right:0;
+top:50px;
+-moz-animation-delay:0.7s;
+-webkit-animation-delay:0.7s;
+-ms-animation-delay:0.7s;
+-o-animation-delay:0.7s;
+animation-delay:0.7s;
+}
+
+#circularG_6{
+right:14px;
+bottom:14px;
+-moz-animation-delay:0.8s;
+-webkit-animation-delay:0.8s;
+-ms-animation-delay:0.8s;
+-o-animation-delay:0.8s;
+animation-delay:0.8s;
+}
+
+#circularG_7{
+left:50px;
+bottom:0;
+-moz-animation-delay:0.9s;
+-webkit-animation-delay:0.9s;
+-ms-animation-delay:0.9s;
+-o-animation-delay:0.9s;
+animation-delay:0.9s;
+}
+
+#circularG_8{
+left:14px;
+bottom:14px;
+-moz-animation-delay:1s;
+-webkit-animation-delay:1s;
+-ms-animation-delay:1s;
+-o-animation-delay:1s;
+animation-delay:1s;
+}
+
+@-moz-keyframes bounce_circularG{
+0%{
+-moz-transform:scale(1)}
+
+100%{
+-moz-transform:scale(.3)}
+
+}
+
+@-webkit-keyframes bounce_circularG{
+0%{
+-webkit-transform:scale(1)}
+
+100%{
+-webkit-transform:scale(.3)}
+
+}
+
+@-ms-keyframes bounce_circularG{
+0%{
+-ms-transform:scale(1)}
+
+100%{
+-ms-transform:scale(.3)}
+
+}
+
+@-o-keyframes bounce_circularG{
+0%{
+-o-transform:scale(1)}
+
+100%{
+-o-transform:scale(.3)}
+
+}
+
+@keyframes bounce_circularG{
+0%{
+transform:scale(1)}
+
+100%{
+transform:scale(.3)}
+
+}
+
+
+/**Date Picker */
+
+#datePicker{
+	width: 25%;
+	height: 25%;
+	z-index: 10000;
+	position: absolute;
+	top: 10%;
+	left: 12%;
+	border: double;
+	border-color: blue;
+}
+
+
+/**Admin User*/
+ div.Admin {
+	width:20%;  
+	background: #FFFFFF;
+	font-size:14px;
+	z-index:10000;
+	text-align: left; 
+	right: -1%;
+	top: 2%;
+	position:absolute;
+}
